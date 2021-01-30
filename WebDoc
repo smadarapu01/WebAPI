@@ -37,5 +37,21 @@ When to Use WCF over WEB API:
 - Creating Services that are transport/Protocol independent. Single Service with multiple end points
 - If your using DOTNET 3.5 or you have an existing SOAP service you must support but want to add REST to reach more clients then use WCF
 
+IF GETTING ERROR WHILE LAUNCHING WEB API APPLICATION FROM VS-2015 
+- RUN Below command in POWERSHELL
+	- SET ExecutionPolicy AllSigned
 
+=============== HTTP Terms and Concepts ================================
+
+Request Verbs: (GET, POST, PUT & DELETE): These verbs describes what should be done with the resource. 
+
+Request Verbs: (GET, POST, PUT & DELETE): These verbs describes what should be done with the resource. 
+
+Request Header: Contains additional information about the request, Example: what type of response is required
+
+Request Body: Constains the data to send to the server
+
+Response Body: Contains the data sent as response from the server
+
+Response Status Code: Provide the client, the status of the request. 
 
