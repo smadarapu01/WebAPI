@@ -1,0 +1,41 @@
+ASP.NET Web API:
+	Framework for building Web API's, i.e. HTTP based services on top of the .NET Framework
+	for building RESTFull Services
+These services can then be consumed by a broad range of clients like
+	Browser
+	Mobile Applications
+	Desktop applications
+	IOTs
+		- Internet off things (can have IP address and connect to internet to communicate)
+			- E.g: Security Systems
+					Electronics appliances (cars)
+
+RESTful Services:
+	- Representational State Transfer.(REST)
+	- REST is an architectural pattern for creating API that uses HTTP as its underlying communication method.
+	- The REST architectural Pattern specifies a set of constraints that a system should fallow
+
+	- Client Server Constraint:
+		- Client sends a request and the server sends a response. The separation of concerns supports the independent evoluation of the client-side logic and server-side logic
+
+	- Stateless Constraint:
+		- The communication between the client and the server must be stateless between requests, We should not be storing anything on the server related to the client. Each request can be treated independtely by the server
+
+	- Cacheable Constraint:
+		- Let the client know how long this data is good for, so that the client does not have to come back to the server for that data over and over again
+
+	- Uniform Interface:
+		- The uniform interface constraint defines the interface between the client and the server.		
+
+DIFFERNCE BETWEEN WCF and WEB API 
+---------------------------------
+
+We can create RESTFul service in WCF also but it required lot of configuration to turn ON a WCF-Service into RESTFul Service.
+
+When to Use WCF over WEB API:
+----------------------------
+- Creating Services that are transport/Protocol independent. Single Service with multiple end points
+- If your using DOTNET 3.5 or you have an existing SOAP service you must support but want to add REST to reach more clients then use WCF
+
+
+
